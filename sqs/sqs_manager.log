@@ -1,20 +1,79 @@
-2024-10-03 14:30:53,234 - INFO - Initialized SQSManager with queue URL: https://sqs.us-east-1.amazonaws.com/533267171619/EonPod-Processing-Queue.fifo
-2024-10-03 14:30:57,766 - INFO - Sent message to SQS: {'school': 'YourSchool', 'subject': 'YourSubject', 's3_path': 's3://eonpod-data/CIS/Science/16-09-2024_06-34-24/Anu Mam Agriculture__transcript.txt'}
-2024-10-03 14:30:57,773 - INFO - Initialized SQSManager with queue URL: https://sqs.us-east-1.amazonaws.com/533267171619/EonPod-Processing-Queue.fifo
-2024-10-03 14:31:07,959 - INFO - No messages received from SQS.
-2024-10-03 14:32:42,433 - INFO - Initialized SQSManager with queue URL: https://sqs.us-east-1.amazonaws.com/533267171619/EonPod-Processing-Queue.fifo
-2024-10-03 14:32:46,077 - INFO - Sent message to SQS: {'school': 'YourSchool', 'subject': 'YourSubject', 's3_path': 's3://eonpod-data/CIS/Science/16-09-2024_06-34-24/Anu Mam Agriculture__transcript.txt'}
-2024-10-03 14:32:46,092 - INFO - Initialized SQSManager with queue URL: https://sqs.us-east-1.amazonaws.com/533267171619/EonPod-Processing-Queue.fifo
-2024-10-03 14:32:46,239 - INFO - Received message from SQS: {'MessageId': '2189216b-e061-40ff-8e05-39057eb910ce', 'ReceiptHandle': 'AQEBYU6vLioIhs1fJ801kK8uNsqj0mV471ZXWoMLNEJ6CGjKSAz/0oDnSPkcO2DaMBbtSXD0E/9AEXWOBV+ThfNmMm/zQjTUDJh475oANE7OepnUBoHJU9CHun4QX5LSazSg6+nK11b90ao9IDnOFmyIi8YFgz4lCS2dQL+D0FIF5X69dS2Dza8WXCLKirWGtYXBe+iRZA2nCO4LiHoHsRlFvoLE3xZOvxfeU25A+8T/FMQKcGgn8SfLsFvglwZYVFCAcI4/ucrbZBhQs/0xSZu8oCCjAQOOUEkHsPn0t0pAlJ4=', 'MD5OfBody': '076a27baff37fd74f1a29e16371079f6', 'Body': '{"school": "YourSchool", "subject": "YourSubject", "s3_path": "s3://eonpod-data/CIS/Science/16-09-2024_06-34-24/Anu Mam Agriculture__transcript.txt"}'}
-2024-10-03 14:32:46,240 - INFO - Processing message: {'school': 'YourSchool', 'subject': 'YourSubject', 's3_path': 's3://eonpod-data/CIS/Science/16-09-2024_06-34-24/Anu Mam Agriculture__transcript.txt'}
-2024-10-03 14:32:46,243 - INFO - Found credentials in environment variables.
-2024-10-03 14:32:46,300 - INFO - Downloading s3://eonpod-data/CIS/Science/16-09-2024_06-34-24/Anu Mam Agriculture__transcript.txt from S3 to downloads/Anu Mam Agriculture__transcript.txt
-2024-10-03 14:32:46,863 - INFO - Downloaded to downloads/Anu Mam Agriculture__transcript.txt
-2024-10-03 14:32:46,866 - INFO - Read content from downloads/Anu Mam Agriculture__transcript.txt
-2024-10-03 14:32:56,317 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2024-10-03 14:32:56,322 - INFO - Saved result for downloads/Anu Mam Agriculture__transcript.txt
-2024-10-03 14:32:56,358 - INFO - Deleted message with receipt handle: AQEBYU6vLioIhs1fJ801kK8uNsqj0mV471ZXWoMLNEJ6CGjKSAz/0oDnSPkcO2DaMBbtSXD0E/9AEXWOBV+ThfNmMm/zQjTUDJh475oANE7OepnUBoHJU9CHun4QX5LSazSg6+nK11b90ao9IDnOFmyIi8YFgz4lCS2dQL+D0FIF5X69dS2Dza8WXCLKirWGtYXBe+iRZA2nCO4LiHoHsRlFvoLE3xZOvxfeU25A+8T/FMQKcGgn8SfLsFvglwZYVFCAcI4/ucrbZBhQs/0xSZu8oCCjAQOOUEkHsPn0t0pAlJ4=
-2024-10-03 14:32:56,358 - INFO - Deleted message with receipt handle: AQEBYU6vLioIhs1fJ801kK8uNsqj0mV471ZXWoMLNEJ6CGjKSAz/0oDnSPkcO2DaMBbtSXD0E/9AEXWOBV+ThfNmMm/zQjTUDJh475oANE7OepnUBoHJU9CHun4QX5LSazSg6+nK11b90ao9IDnOFmyIi8YFgz4lCS2dQL+D0FIF5X69dS2Dza8WXCLKirWGtYXBe+iRZA2nCO4LiHoHsRlFvoLE3xZOvxfeU25A+8T/FMQKcGgn8SfLsFvglwZYVFCAcI4/ucrbZBhQs/0xSZu8oCCjAQOOUEkHsPn0t0pAlJ4=
-2024-10-03 14:32:56,359 - INFO - Deleted local file downloads/Anu Mam Agriculture__transcript.txt
-2024-10-03 14:33:06,414 - INFO - No messages received from SQS.
-2024-10-03 14:33:06,415 - INFO - No messages in the SQS queue.
+2024-10-04 01:02:08,776 - INFO - Sent message to SQS: {'school': 'Myschool', 'subject': 'sub', 's3_path': 's3://eonpod-data/100/CL10CMATR/16-09-2024_06-34-24/16-09-2024_06-34-24_transcript.txt'}
+2024-10-04 01:02:08,784 - INFO - Initialized SQSManager with queue URL: https://sqs.us-east-1.amazonaws.com/533267171619/EonPod-Processing-Queue.fifo
+2024-10-04 01:02:18,991 - INFO - No messages received from SQS.
+2024-10-04 01:02:18,991 - INFO - No messages in the SQS queue.
+2024-10-04 01:02:37,428 - INFO - Sent message to SQS: {'school': 'Myschool', 'subject': 'sub', 's3_path': 's3://eonpod-data/100/CL10CMATR/16-09-2024_06-34-24/16-09-2024_06-34-24_transcript.txt'}
+2024-10-04 01:02:37,435 - INFO - Initialized SQSManager with queue URL: https://sqs.us-east-1.amazonaws.com/533267171619/EonPod-Processing-Queue.fifo
+2024-10-04 01:02:38,122 - INFO - Sent message to SQS: {'school': 'Myschool', 'subject': 'sub', 's3_path': 's3://eonpod-data/100/CL10CMATR/16-09-2024_06-34-24/16-09-2024_06-34-24_transcript.txt'}
+2024-10-04 01:02:38,130 - INFO - Initialized SQSManager with queue URL: https://sqs.us-east-1.amazonaws.com/533267171619/EonPod-Processing-Queue.fifo
+2024-10-04 01:02:47,665 - INFO - No messages received from SQS.
+2024-10-04 01:02:47,665 - INFO - No messages in the SQS queue.
+2024-10-04 01:02:48,299 - INFO - No messages received from SQS.
+2024-10-04 01:02:48,299 - INFO - No messages in the SQS queue.
+2024-10-04 01:07:00,746 - INFO - Initialized SQSManager with queue URL: https://sqs.us-east-1.amazonaws.com/533267171619/EonPod-Processing-Queue.fifo
+2024-10-04 01:07:04,937 - INFO - Sent message to SQS: {'school': 'Myschool', 'subject': 'sub', 's3_path': 's3://eonpod-data/100/CL10CMATR/16-09-2024_06-34-24/16-09-2024_06-34-24_transcript.txt'}
+2024-10-04 01:07:04,950 - INFO - Initialized SQSManager with queue URL: https://sqs.us-east-1.amazonaws.com/533267171619/EonPod-Processing-Queue.fifo
+2024-10-04 01:07:05,090 - INFO - Received message from SQS: {'MessageId': '3496ebae-5056-41ca-bc0a-2dfe9d27491b', 'ReceiptHandle': 'AQEBA0wqcwffYwqpIIYUs6oGcrnXtNFHi6ocgBMHnFstPeNjkf5dbZ59VmvKyzxbpDJxwdypBnEXLtiRuDbfFHoGFhDdz7LdJMod0PYVpV+kD7WCRtpaDyMq3HHTRmlloCeCddQiL6ceGaohYKlUJvM3fZPOwjD8Nd83D2/WDKht+TYXCPmFhjFC23RkZMt/9ReN7vhEf6ULFd1N09LjKlQzDY1rNJc66n8cv2/mQNFu1eBvgXumh3brNFBa6teR0hJYIQYax+VxTEBVCgoyWST3HgNmlOe1edZM9GsVy75FdvU=', 'MD5OfBody': '31345b1aa0c31be8d33ec7ac03542312', 'Body': '{"school": "Myschool", "subject": "sub", "s3_path": "s3://eonpod-data/100/CL10CMATR/16-09-2024_06-34-24/16-09-2024_06-34-24_transcript.txt"}'}
+2024-10-04 01:07:05,090 - INFO - Processing message: {'school': 'Myschool', 'subject': 'sub', 's3_path': 's3://eonpod-data/100/CL10CMATR/16-09-2024_06-34-24/16-09-2024_06-34-24_transcript.txt'}
+2024-10-04 01:07:05,094 - INFO - Found credentials in environment variables.
+2024-10-04 01:07:05,146 - INFO - Downloading s3://eonpod-data/100/CL10CMATR/16-09-2024_06-34-24/16-09-2024_06-34-24_transcript.txt from S3 to downloads/16-09-2024_06-34-24_transcript.txt
+2024-10-04 01:07:05,622 - INFO - Downloaded to downloads/16-09-2024_06-34-24_transcript.txt
+2024-10-04 01:07:05,625 - INFO - Read content from downloads/16-09-2024_06-34-24_transcript.txt
+2024-10-04 01:07:05,625 - INFO - Sending request to OpenAI API for summary and quiz generation.
+2024-10-04 01:07:17,861 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-04 01:07:17,868 - INFO - Successfully received response from OpenAI API.
+2024-10-04 01:07:17,869 - INFO - Successfully saved result to Data/Myschool/sub/16-09-2024_06-34-24/16-09-2024_06-34-24_result.json
+2024-10-04 01:07:17,869 - INFO - Saved result for downloads/16-09-2024_06-34-24_transcript.txt
+2024-10-04 01:07:17,904 - INFO - Deleted message with receipt handle: AQEBA0wqcwffYwqpIIYUs6oGcrnXtNFHi6ocgBMHnFstPeNjkf5dbZ59VmvKyzxbpDJxwdypBnEXLtiRuDbfFHoGFhDdz7LdJMod0PYVpV+kD7WCRtpaDyMq3HHTRmlloCeCddQiL6ceGaohYKlUJvM3fZPOwjD8Nd83D2/WDKht+TYXCPmFhjFC23RkZMt/9ReN7vhEf6ULFd1N09LjKlQzDY1rNJc66n8cv2/mQNFu1eBvgXumh3brNFBa6teR0hJYIQYax+VxTEBVCgoyWST3HgNmlOe1edZM9GsVy75FdvU=
+2024-10-04 01:07:17,905 - INFO - Deleted message with receipt handle: AQEBA0wqcwffYwqpIIYUs6oGcrnXtNFHi6ocgBMHnFstPeNjkf5dbZ59VmvKyzxbpDJxwdypBnEXLtiRuDbfFHoGFhDdz7LdJMod0PYVpV+kD7WCRtpaDyMq3HHTRmlloCeCddQiL6ceGaohYKlUJvM3fZPOwjD8Nd83D2/WDKht+TYXCPmFhjFC23RkZMt/9ReN7vhEf6ULFd1N09LjKlQzDY1rNJc66n8cv2/mQNFu1eBvgXumh3brNFBa6teR0hJYIQYax+VxTEBVCgoyWST3HgNmlOe1edZM9GsVy75FdvU=
+2024-10-04 01:07:27,983 - INFO - No messages received from SQS.
+2024-10-04 01:07:27,984 - INFO - No messages in the SQS queue.
+2024-10-04 01:09:28,914 - INFO - Initialized SQSManager with queue URL: https://sqs.us-east-1.amazonaws.com/533267171619/EonPod-Processing-Queue.fifo
+2024-10-04 01:20:52,690 - INFO - Found credentials in environment variables.
+2024-10-04 01:20:52,799 - INFO - Initialized SQSManager with queue URL: https://sqs.us-east-1.amazonaws.com/533267171619/EonPod-Processing-Queue.fifo
+2024-10-04 01:20:57,652 - INFO - Sent message to SQS: {'school': 'Myschool', 'subject': 'sub', 's3_path': 's3://eonpod-data/100/CL10CMATR/16-09-2024_06-34-24/16-09-2024_06-34-24_transcript.txt'}
+2024-10-04 01:20:57,662 - INFO - Initialized SQSManager with queue URL: https://sqs.us-east-1.amazonaws.com/533267171619/EonPod-Processing-Queue.fifo
+2024-10-04 01:20:57,790 - INFO - Received message from SQS: {'MessageId': '2c134566-479e-48a3-acba-67f06b21cccd', 'ReceiptHandle': 'AQEBtfjqEL7XY5H1cyUrrizczsPKDz9WprimftGhKmo/9ZjKLP4VJA1qaZKXh8fjJ6CmIrspRt67UWALkfGjeArc678HRk7YXqvYCnzmWKGuov4EGcMD2rzptcSCDei0tfvxq0vFUQ2mm61g0DLN2WZ16GQw7klNT1zoakolpymKAq9JU7pIMKSnSD++7L8HbPjlHROB10rjTUEoQpumqY6toWHu1+pNJwWEIv2OvWf2fiNxgimbJp9xXdwGKXisSWk8il9I/xojKfylFX0xsfpg3t/1S2Oivs94nRMCWXG7bZ4=', 'MD5OfBody': '31345b1aa0c31be8d33ec7ac03542312', 'Body': '{"school": "Myschool", "subject": "sub", "s3_path": "s3://eonpod-data/100/CL10CMATR/16-09-2024_06-34-24/16-09-2024_06-34-24_transcript.txt"}'}
+2024-10-04 01:20:57,790 - INFO - Processing message: {'school': 'Myschool', 'subject': 'sub', 's3_path': 's3://eonpod-data/100/CL10CMATR/16-09-2024_06-34-24/16-09-2024_06-34-24_transcript.txt'}
+2024-10-04 01:20:57,790 - INFO - Downloading s3://eonpod-data/100/CL10CMATR/16-09-2024_06-34-24/16-09-2024_06-34-24_transcript.txt from S3 to downloads/16-09-2024_06-34-24_transcript.txt
+2024-10-04 01:20:58,233 - INFO - Downloaded to downloads/16-09-2024_06-34-24_transcript.txt
+2024-10-04 01:20:58,233 - INFO - Read content from downloads/16-09-2024_06-34-24_transcript.txt
+2024-10-04 01:20:58,233 - INFO - Sending request to OpenAI API for summary and quiz generation.
+2024-10-04 01:21:08,077 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-04 01:21:08,087 - INFO - Successfully received response from OpenAI API.
+2024-10-04 01:21:08,088 - INFO - Summary saved to Data/Myschool/sub/16-09-2024_06-34-24/16-09-2024_06-34-24_summary.txt
+2024-10-04 01:21:08,088 - INFO - Quiz saved to Data/Myschool/sub/16-09-2024_06-34-24/16-09-2024_06-34-24_quiz.txt
+2024-10-04 01:21:08,088 - INFO - Uploading Data/Myschool/sub/16-09-2024_06-34-24/16-09-2024_06-34-24_summary.txt to s3://s3://eonpod-data/100/CL10CMATR/16-09-2024_06-34-24/16-09-2024_06-34-24_summary.txt
+2024-10-04 01:21:08,265 - INFO - Uploaded Data/Myschool/sub/16-09-2024_06-34-24/16-09-2024_06-34-24_summary.txt to s3://s3://eonpod-data/100/CL10CMATR/16-09-2024_06-34-24/16-09-2024_06-34-24_summary.txt
+2024-10-04 01:21:08,265 - INFO - Uploading Data/Myschool/sub/16-09-2024_06-34-24/16-09-2024_06-34-24_quiz.txt to s3://s3://eonpod-data/100/CL10CMATR/16-09-2024_06-34-24/16-09-2024_06-34-24_quiz.txt
+2024-10-04 01:21:08,348 - INFO - Uploaded Data/Myschool/sub/16-09-2024_06-34-24/16-09-2024_06-34-24_quiz.txt to s3://s3://eonpod-data/100/CL10CMATR/16-09-2024_06-34-24/16-09-2024_06-34-24_quiz.txt
+2024-10-04 01:21:08,349 - INFO - Saved result for downloads/16-09-2024_06-34-24_transcript.txt
+2024-10-04 01:21:08,382 - INFO - Deleted message with receipt handle: AQEBtfjqEL7XY5H1cyUrrizczsPKDz9WprimftGhKmo/9ZjKLP4VJA1qaZKXh8fjJ6CmIrspRt67UWALkfGjeArc678HRk7YXqvYCnzmWKGuov4EGcMD2rzptcSCDei0tfvxq0vFUQ2mm61g0DLN2WZ16GQw7klNT1zoakolpymKAq9JU7pIMKSnSD++7L8HbPjlHROB10rjTUEoQpumqY6toWHu1+pNJwWEIv2OvWf2fiNxgimbJp9xXdwGKXisSWk8il9I/xojKfylFX0xsfpg3t/1S2Oivs94nRMCWXG7bZ4=
+2024-10-04 01:21:08,382 - INFO - Deleted message with receipt handle: AQEBtfjqEL7XY5H1cyUrrizczsPKDz9WprimftGhKmo/9ZjKLP4VJA1qaZKXh8fjJ6CmIrspRt67UWALkfGjeArc678HRk7YXqvYCnzmWKGuov4EGcMD2rzptcSCDei0tfvxq0vFUQ2mm61g0DLN2WZ16GQw7klNT1zoakolpymKAq9JU7pIMKSnSD++7L8HbPjlHROB10rjTUEoQpumqY6toWHu1+pNJwWEIv2OvWf2fiNxgimbJp9xXdwGKXisSWk8il9I/xojKfylFX0xsfpg3t/1S2Oivs94nRMCWXG7bZ4=
+2024-10-04 01:21:08,382 - INFO - Deleted local file downloads/16-09-2024_06-34-24_transcript.txt
+2024-10-04 01:21:18,439 - INFO - No messages received from SQS.
+2024-10-04 01:21:18,440 - INFO - No messages in the SQS queue.
+2024-10-04 01:23:22,748 - INFO - Sent message to SQS: {'school': 'Myschool', 'subject': 'sub', 's3_path': 's3://eonpod-data/sqs_test/sub_test/16-09-2024_06-34-24_transcript.txt'}
+2024-10-04 01:23:22,753 - INFO - Initialized SQSManager with queue URL: https://sqs.us-east-1.amazonaws.com/533267171619/EonPod-Processing-Queue.fifo
+2024-10-04 01:23:22,902 - INFO - Received message from SQS: {'MessageId': 'f4fc8886-da62-44b8-9163-f3d52e928eee', 'ReceiptHandle': 'AQEBQnXr4wMcScYmGWIJsH+cO1UU3P+IvS0yY6nD+oNIX9eCiG6g1UG297zW76uMITQ9gM1A5NpC9eFn7CF76I+cGgGRkELiItAAOz31lqhW9kcT7p2CRCQx1LVBEzcMNj1gLDE40HsiBeklIwAy8qAxtPfH+JiXzs+Mfn2/ZaV0Ewns/fCSlVQbfks2Ir4zJ3w+B9w5VGVVaRr55HSx5aOFxz2wxy/wJOXiED+vlvAiOZkD9cZzKTldRsUz2W+QYNYvpDHCMoAodq6P8w6vJmS0kD4aQoJ9VFzTXhFzaZa28RE=', 'MD5OfBody': 'b6743cc164d590d9e6133a43154ee279', 'Body': '{"school": "Myschool", "subject": "sub", "s3_path": "s3://eonpod-data/sqs_test/sub_test/16-09-2024_06-34-24_transcript.txt"}'}
+2024-10-04 01:23:22,902 - INFO - Processing message: {'school': 'Myschool', 'subject': 'sub', 's3_path': 's3://eonpod-data/sqs_test/sub_test/16-09-2024_06-34-24_transcript.txt'}
+2024-10-04 01:23:22,902 - INFO - Downloading s3://eonpod-data/sqs_test/sub_test/16-09-2024_06-34-24_transcript.txt from S3 to downloads/16-09-2024_06-34-24_transcript.txt
+2024-10-04 01:23:23,093 - INFO - Downloaded to downloads/16-09-2024_06-34-24_transcript.txt
+2024-10-04 01:23:23,093 - INFO - Read content from downloads/16-09-2024_06-34-24_transcript.txt
+2024-10-04 01:23:23,093 - INFO - Sending request to OpenAI API for summary and quiz generation.
+2024-10-04 01:23:31,166 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-04 01:23:31,169 - INFO - Successfully received response from OpenAI API.
+2024-10-04 01:23:31,171 - INFO - Summary saved to Data/Myschool/sub/16-09-2024_06-34-24/16-09-2024_06-34-24_summary.txt
+2024-10-04 01:23:31,171 - INFO - Quiz saved to Data/Myschool/sub/16-09-2024_06-34-24/16-09-2024_06-34-24_quiz.txt
+2024-10-04 01:23:31,171 - INFO - Uploading Data/Myschool/sub/16-09-2024_06-34-24/16-09-2024_06-34-24_summary.txt to s3://s3://eonpod-data/sqs_test/sub_test/16-09-2024_06-34-24_summary.txt
+2024-10-04 01:23:31,331 - INFO - Uploaded Data/Myschool/sub/16-09-2024_06-34-24/16-09-2024_06-34-24_summary.txt to s3://s3://eonpod-data/sqs_test/sub_test/16-09-2024_06-34-24_summary.txt
+2024-10-04 01:23:31,331 - INFO - Uploading Data/Myschool/sub/16-09-2024_06-34-24/16-09-2024_06-34-24_quiz.txt to s3://s3://eonpod-data/sqs_test/sub_test/16-09-2024_06-34-24_quiz.txt
+2024-10-04 01:23:31,441 - INFO - Uploaded Data/Myschool/sub/16-09-2024_06-34-24/16-09-2024_06-34-24_quiz.txt to s3://s3://eonpod-data/sqs_test/sub_test/16-09-2024_06-34-24_quiz.txt
+2024-10-04 01:23:31,441 - INFO - Saved result for downloads/16-09-2024_06-34-24_transcript.txt
+2024-10-04 01:23:31,476 - INFO - Deleted message with receipt handle: AQEBQnXr4wMcScYmGWIJsH+cO1UU3P+IvS0yY6nD+oNIX9eCiG6g1UG297zW76uMITQ9gM1A5NpC9eFn7CF76I+cGgGRkELiItAAOz31lqhW9kcT7p2CRCQx1LVBEzcMNj1gLDE40HsiBeklIwAy8qAxtPfH+JiXzs+Mfn2/ZaV0Ewns/fCSlVQbfks2Ir4zJ3w+B9w5VGVVaRr55HSx5aOFxz2wxy/wJOXiED+vlvAiOZkD9cZzKTldRsUz2W+QYNYvpDHCMoAodq6P8w6vJmS0kD4aQoJ9VFzTXhFzaZa28RE=
+2024-10-04 01:23:31,476 - INFO - Deleted message with receipt handle: AQEBQnXr4wMcScYmGWIJsH+cO1UU3P+IvS0yY6nD+oNIX9eCiG6g1UG297zW76uMITQ9gM1A5NpC9eFn7CF76I+cGgGRkELiItAAOz31lqhW9kcT7p2CRCQx1LVBEzcMNj1gLDE40HsiBeklIwAy8qAxtPfH+JiXzs+Mfn2/ZaV0Ewns/fCSlVQbfks2Ir4zJ3w+B9w5VGVVaRr55HSx5aOFxz2wxy/wJOXiED+vlvAiOZkD9cZzKTldRsUz2W+QYNYvpDHCMoAodq6P8w6vJmS0kD4aQoJ9VFzTXhFzaZa28RE=
+2024-10-04 01:23:31,476 - INFO - Deleted local file downloads/16-09-2024_06-34-24_transcript.txt
+2024-10-04 01:23:41,573 - INFO - No messages received from SQS.
+2024-10-04 01:23:41,573 - INFO - No messages in the SQS queue.
+2024-10-04 01:26:18,658 - INFO - Found credentials in environment variables.
+2024-10-04 01:26:18,771 - INFO - Initialized SQSManager with queue URL: https://sqs.us-east-1.amazonaws.com/533267171619/EonPod-Processing-Queue.fifo
