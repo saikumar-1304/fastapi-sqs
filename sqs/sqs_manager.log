@@ -1,0 +1,20 @@
+2024-10-03 14:30:53,234 - INFO - Initialized SQSManager with queue URL: https://sqs.us-east-1.amazonaws.com/533267171619/EonPod-Processing-Queue.fifo
+2024-10-03 14:30:57,766 - INFO - Sent message to SQS: {'school': 'YourSchool', 'subject': 'YourSubject', 's3_path': 's3://eonpod-data/CIS/Science/16-09-2024_06-34-24/Anu Mam Agriculture__transcript.txt'}
+2024-10-03 14:30:57,773 - INFO - Initialized SQSManager with queue URL: https://sqs.us-east-1.amazonaws.com/533267171619/EonPod-Processing-Queue.fifo
+2024-10-03 14:31:07,959 - INFO - No messages received from SQS.
+2024-10-03 14:32:42,433 - INFO - Initialized SQSManager with queue URL: https://sqs.us-east-1.amazonaws.com/533267171619/EonPod-Processing-Queue.fifo
+2024-10-03 14:32:46,077 - INFO - Sent message to SQS: {'school': 'YourSchool', 'subject': 'YourSubject', 's3_path': 's3://eonpod-data/CIS/Science/16-09-2024_06-34-24/Anu Mam Agriculture__transcript.txt'}
+2024-10-03 14:32:46,092 - INFO - Initialized SQSManager with queue URL: https://sqs.us-east-1.amazonaws.com/533267171619/EonPod-Processing-Queue.fifo
+2024-10-03 14:32:46,239 - INFO - Received message from SQS: {'MessageId': '2189216b-e061-40ff-8e05-39057eb910ce', 'ReceiptHandle': 'AQEBYU6vLioIhs1fJ801kK8uNsqj0mV471ZXWoMLNEJ6CGjKSAz/0oDnSPkcO2DaMBbtSXD0E/9AEXWOBV+ThfNmMm/zQjTUDJh475oANE7OepnUBoHJU9CHun4QX5LSazSg6+nK11b90ao9IDnOFmyIi8YFgz4lCS2dQL+D0FIF5X69dS2Dza8WXCLKirWGtYXBe+iRZA2nCO4LiHoHsRlFvoLE3xZOvxfeU25A+8T/FMQKcGgn8SfLsFvglwZYVFCAcI4/ucrbZBhQs/0xSZu8oCCjAQOOUEkHsPn0t0pAlJ4=', 'MD5OfBody': '076a27baff37fd74f1a29e16371079f6', 'Body': '{"school": "YourSchool", "subject": "YourSubject", "s3_path": "s3://eonpod-data/CIS/Science/16-09-2024_06-34-24/Anu Mam Agriculture__transcript.txt"}'}
+2024-10-03 14:32:46,240 - INFO - Processing message: {'school': 'YourSchool', 'subject': 'YourSubject', 's3_path': 's3://eonpod-data/CIS/Science/16-09-2024_06-34-24/Anu Mam Agriculture__transcript.txt'}
+2024-10-03 14:32:46,243 - INFO - Found credentials in environment variables.
+2024-10-03 14:32:46,300 - INFO - Downloading s3://eonpod-data/CIS/Science/16-09-2024_06-34-24/Anu Mam Agriculture__transcript.txt from S3 to downloads/Anu Mam Agriculture__transcript.txt
+2024-10-03 14:32:46,863 - INFO - Downloaded to downloads/Anu Mam Agriculture__transcript.txt
+2024-10-03 14:32:46,866 - INFO - Read content from downloads/Anu Mam Agriculture__transcript.txt
+2024-10-03 14:32:56,317 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-03 14:32:56,322 - INFO - Saved result for downloads/Anu Mam Agriculture__transcript.txt
+2024-10-03 14:32:56,358 - INFO - Deleted message with receipt handle: AQEBYU6vLioIhs1fJ801kK8uNsqj0mV471ZXWoMLNEJ6CGjKSAz/0oDnSPkcO2DaMBbtSXD0E/9AEXWOBV+ThfNmMm/zQjTUDJh475oANE7OepnUBoHJU9CHun4QX5LSazSg6+nK11b90ao9IDnOFmyIi8YFgz4lCS2dQL+D0FIF5X69dS2Dza8WXCLKirWGtYXBe+iRZA2nCO4LiHoHsRlFvoLE3xZOvxfeU25A+8T/FMQKcGgn8SfLsFvglwZYVFCAcI4/ucrbZBhQs/0xSZu8oCCjAQOOUEkHsPn0t0pAlJ4=
+2024-10-03 14:32:56,358 - INFO - Deleted message with receipt handle: AQEBYU6vLioIhs1fJ801kK8uNsqj0mV471ZXWoMLNEJ6CGjKSAz/0oDnSPkcO2DaMBbtSXD0E/9AEXWOBV+ThfNmMm/zQjTUDJh475oANE7OepnUBoHJU9CHun4QX5LSazSg6+nK11b90ao9IDnOFmyIi8YFgz4lCS2dQL+D0FIF5X69dS2Dza8WXCLKirWGtYXBe+iRZA2nCO4LiHoHsRlFvoLE3xZOvxfeU25A+8T/FMQKcGgn8SfLsFvglwZYVFCAcI4/ucrbZBhQs/0xSZu8oCCjAQOOUEkHsPn0t0pAlJ4=
+2024-10-03 14:32:56,359 - INFO - Deleted local file downloads/Anu Mam Agriculture__transcript.txt
+2024-10-03 14:33:06,414 - INFO - No messages received from SQS.
+2024-10-03 14:33:06,415 - INFO - No messages in the SQS queue.

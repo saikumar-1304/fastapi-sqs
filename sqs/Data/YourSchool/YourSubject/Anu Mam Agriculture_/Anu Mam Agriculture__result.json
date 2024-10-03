@@ -1,0 +1,105 @@
+{
+  "summary": "The lecture introduces the topic of agriculture, focusing on its importance in India's economy. It discusses the types of farming practices and the shift in the percentage of the population engaged in agriculture over time.",
+  "quiz_questions": [
+    {
+      "question": "What is the meaning of agriculture?",
+      "options": [
+        "Cultivation of crops",
+        "Manufacturing goods",
+        "Providing services",
+        "Mining minerals"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "question": "During independence time, what percentage of India's population was dependent on agriculture?",
+      "options": [
+        "80%",
+        "60%",
+        "40%",
+        "20%"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "question": "In which sector does agriculture fall in the economy?",
+      "options": [
+        "Primary sector",
+        "Secondary sector",
+        "Tertiary sector",
+        "Quaternary sector"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "question": "How many sectors are there in an economy?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "question": "What are the three types of farming discussed in the lecture?",
+      "options": [
+        "Primitive subsistence farming, Extensive farming, Industrial farming",
+        "Intensive subsistence farming, Commercial farming, Modern farming",
+        "Primitive subsistence farming, Intensive subsistence farming, Commercial farming",
+        "Traditional farming, Sustainable farming, Urban farming"
+      ],
+      "correct_answer": 2
+    },
+    {
+      "question": "What does 'subsistence' farming mean?",
+      "options": [
+        "Farming for commercial profit",
+        "Farming for personal consumption",
+        "Farming using modern technology",
+        "Farming using traditional methods"
+      ],
+      "correct_answer": 1
+    },
+    {
+      "question": "Which country is mentioned as having a large population with more land and labor?",
+      "options": [
+        "India",
+        "China",
+        "USA",
+        "Brazil"
+      ],
+      "correct_answer": 1
+    },
+    {
+      "question": "What is the major factor needed for intensive subsistence farming?",
+      "options": [
+        "Technology",
+        "Capital",
+        "Land and labor",
+        "Government subsidies"
+      ],
+      "correct_answer": 2
+    },
+    {
+      "question": "What is the percentage of the current Indian population dependent on agriculture?",
+      "options": [
+        "55.1%",
+        "70%",
+        "40%",
+        "25%"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which country is mentioned as a top agricultural producer in the world?",
+      "options": [
+        "China",
+        "India",
+        "USA",
+        "Brazil"
+      ],
+      "correct_answer": 1
+    }
+  ]
+}

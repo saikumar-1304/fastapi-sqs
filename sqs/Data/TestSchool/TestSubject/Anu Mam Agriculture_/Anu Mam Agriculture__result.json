@@ -1,0 +1,105 @@
+{
+  "summary": "The lecture discusses agriculture in India, highlighting its importance as a primary occupation and the changes in the agricultural sector over time. It touches upon the types of farming practices - primitive subsistence farming, intensive subsistence farming, and commercial farming. The lecture also mentions the relationship between population, land availability, and technological advancements in agriculture.",
+  "quiz_questions": [
+    {
+      "question": "What is the primary occupation for a majority of the population in India?",
+      "options": [
+        "Manufacturing",
+        "Agriculture",
+        "Services",
+        "Mining"
+      ],
+      "correct_answer": 1
+    },
+    {
+      "question": "Which sector does agriculture fall under in the economy?",
+      "options": [
+        "Primary",
+        "Secondary",
+        "Tertiary",
+        "Quaternary"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "question": "What are the three types of farming discussed in the lecture?",
+      "options": [
+        "Traditional, Modern, Industrial",
+        "Primitive, Intensive, Commercial",
+        "Subsistence, Commercial, Industrial",
+        "Small-scale, Large-scale, Corporate"
+      ],
+      "correct_answer": 1
+    },
+    {
+      "question": "What are the major factors required for intensive subsistence farming?",
+      "options": [
+        "Land and Labor",
+        "Technology and Capital",
+        "Water and Machinery",
+        "Seeds and Fertilizers"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which country is mentioned as having the largest population in the world?",
+      "options": [
+        "India",
+        "China",
+        "USA",
+        "Brazil"
+      ],
+      "correct_answer": 1
+    },
+    {
+      "question": "What percentage of India's population was dependent on agriculture during independence?",
+      "options": [
+        "80%",
+        "70%",
+        "60%",
+        "50%"
+      ],
+      "correct_answer": 0
+    },
+    {
+      "question": "Which country is projected to be the top agricultural country in the future?",
+      "options": [
+        "China",
+        "India",
+        "USA",
+        "Brazil"
+      ],
+      "correct_answer": 1
+    },
+    {
+      "question": "What is the meaning of 'subsistence' in the context of farming?",
+      "options": [
+        "Maximizing profits",
+        "Sustainability",
+        "Overproduction",
+        "Market-oriented"
+      ],
+      "correct_answer": 1
+    },
+    {
+      "question": "Which type of farming relies heavily on technology?",
+      "options": [
+        "Primitive subsistence farming",
+        "Intensive subsistence farming",
+        "Commercial farming",
+        "All of the above"
+      ],
+      "correct_answer": 2
+    },
+    {
+      "question": "Which type of farming focuses on producing for self-consumption?",
+      "options": [
+        "Primitive subsistence farming",
+        "Intensive subsistence farming",
+        "Commercial farming",
+        "Plantation farming"
+      ],
+      "correct_answer": 0
+    }
+  ]
+}
