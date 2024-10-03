@@ -93,11 +93,11 @@ def process_sqs_messages(queue_url: str):
                     continue
 
                 # Clean up the downloaded file
-                try:
-                    os.remove(local_file_path)
-                    logging.info(f"Deleted local file {local_file_path}")
-                except Exception as e:
-                    logging.error(f"Error deleting local file {local_file_path}: {str(e)}")
+                # try:
+                #     os.remove(local_file_path)
+                #     logging.info(f"Deleted local file {local_file_path}")
+                # except Exception as e:
+                #     logging.error(f"Error deleting local file {local_file_path}: {str(e)}")
 
         except Exception as e:
             logging.error(f"Error processing messages: {str(e)}")
